@@ -28,13 +28,14 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
     try {
-      let response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(formDetails),
-      });
+  let response = await fetch("https://swaraj-sambare-portfolio.herokuapp.com/contact", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(formDetails),
+    });
+
 
       setButtonText("Send");
       setFormDetails(formInitialDetails);

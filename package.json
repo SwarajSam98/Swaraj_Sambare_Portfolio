@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://SwarajSam98.github.io/Swaraj_Sambare_Portfolio",
   "engines": {
     "node": "18.x"
   },
@@ -33,10 +33,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+  "start": "node server.js",
+  "server": "node server.js",
+  "client": "react-scripts start",
+  "build": "react-scripts build",
+  "heroku-postbuild": "npm install --prefix client && npm run build --prefix client",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [

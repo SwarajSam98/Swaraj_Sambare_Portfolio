@@ -1,11 +1,8 @@
-/*
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 const path = require("path");
-require("dotenv").config({ path: "./details.env" });
-
 
 // server used to send emails
 const app = express();
@@ -65,4 +62,3 @@ router.post("/contact", (req, res) => {
     }
   });
 });
-*/
