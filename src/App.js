@@ -35,7 +35,7 @@ function App() {
           <Banner />
           <Skills />
           <Projects />
-          <Resume></Resume>
+          <Resume />
           <Footer />
         </>
       )}
