@@ -1,8 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assests/images/logo.jpg";
 import navIcon1 from "../assests/images/nav-icon1.svg";
-import navIcon2 from "../assests/images/nav-icon2.svg";
-import navIcon3 from "../assests/images/nav-icon3.svg";
+import navIcon4 from '../assests/images/navIcon4.png';
 
 export const Footer = () => {
   return (
@@ -14,11 +13,14 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+<a href="https://www.linkedin.com/in/swaraj-sambare-48b996157/" target="_blank" rel="noreferrer">
+  <img src={navIcon1} alt="LinkedIn" />
+</a>
+<a href="https://github.com/SwarajSam98" target="_blank" rel="noreferrer">
+  <img src={navIcon4} alt="GitHub" />
+</a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2025. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

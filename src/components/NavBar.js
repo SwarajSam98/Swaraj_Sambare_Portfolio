@@ -6,6 +6,7 @@ import logo from '../assests/images/logo.jpg';
 import navIcon1 from '../assests/images/nav-icon1.svg';
 import navIcon2 from '../assests/images/nav-icon2.svg';
 import navIcon3 from '../assests/images/nav-icon3.svg';
+import navIcon4 from '../assests/images/navIcon4.png';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -52,13 +53,13 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/swaraj-sambare-48b996157/" target="_blank" rel="noreferrer">
+     <img src={navIcon1} alt="LinkedIn" />
+</a>
+<a href="https://github.com/SwarajSam98" target="_blank" rel="noreferrer">
+  <img src={navIcon4} alt="GitHub" />
+</a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>
