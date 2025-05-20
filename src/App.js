@@ -5,14 +5,14 @@ import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Footer } from './components/Footer';
-import SplashScreen from './components/SplashScreen';
+import { SplashScreen } from './components/SplashScreen';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2500); // 2.5s splash screen
+    const timer = setTimeout(() => setLoading(false), 2000); // 2.5s splash screen
     return () => clearTimeout(timer);
   }, []);
 
