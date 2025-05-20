@@ -6,7 +6,7 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Footer } from './components/Footer';
 import SplashScreen from './components/SplashScreen';
-import { Resume } from './components/Resume'; 
+import Resume from './components/Resume'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
