@@ -5,21 +5,29 @@ import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Footer } from './components/Footer';
-import { SplashScreen } from './components/SplashScreen';
+import SplashScreen from './components/SplashScreen';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [showSplash, setShowSplash] = useState(true);
+  const [fadeSplash, setFadeSplash] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000); // 2.5s splash screen
-    return () => clearTimeout(timer);
+    // Start fade-out at 2s
+    const fadeTimer = setTimeout(() => setFadeSplash(true), 2000);
+    // Fully remove splash after 3s
+    const hideTimer = setTimeout(() => setShowSplash(false), 3000);
+
+    return () => {
+      clearTimeout(fadeTimer);
+      clearTimeout(hideTimer);
+    };
   }, []);
 
   return (
     <div className="App">
-      {loading ? (
-        <SplashScreen />
+      {showSplash ? (
+        <SplashScreen fade={fadeSplash} />
       ) : (
         <>
           <NavBar />

@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #10002b; /* Change to match theme */
+  background-color: #10002b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +12,15 @@
   z-index: 9999;
   color: #fff;
   font-family: 'Segoe UI', sans-serif;
+  opacity: 1;
+  transition: opacity 0.8s ease-out;
 }
+
+.splash-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
 
 .splash-logo {
   width: 100px;
