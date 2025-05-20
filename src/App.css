@@ -616,6 +616,39 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 .resume-section {
-  background-color: #f8f9fa;
-  padding: 60px 0;
+  background-color: #121212; /* Match dark theme */
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.resume-section iframe {
+  width: 80vw;
+  height: 80vh;
+  max-width: 900px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.resume-section .btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #121212;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.resume-section .btn:hover {
+  background-color: #4A2FBD;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .resume-section iframe {
+    width: 90vw;
+    height: 70vh;
+  }
 }
