@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Swaraj_Sambare_Portfolio/static/css/main.97671c7a.css",
+    "main.css": "/Swaraj_Sambare_Portfolio/static/css/main.c97f2600.css",
     "main.js": "/Swaraj_Sambare_Portfolio/static/js/main.7b939b63.js",
     "static/js/453.b21437c2.chunk.js": "/Swaraj_Sambare_Portfolio/static/js/453.b21437c2.chunk.js",
     "static/media/color-sharp.png": "/Swaraj_Sambare_Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -23,12 +23,12 @@
     "static/media/meter3.svg": "/Swaraj_Sambare_Portfolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/Swaraj_Sambare_Portfolio/index.html",
     "static/media/nav-icon1.svg": "/Swaraj_Sambare_Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.97671c7a.css.map": "/Swaraj_Sambare_Portfolio/static/css/main.97671c7a.css.map",
+    "main.c97f2600.css.map": "/Swaraj_Sambare_Portfolio/static/css/main.c97f2600.css.map",
     "main.7b939b63.js.map": "/Swaraj_Sambare_Portfolio/static/js/main.7b939b63.js.map",
     "453.b21437c2.chunk.js.map": "/Swaraj_Sambare_Portfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97671c7a.css",
+    "static/css/main.c97f2600.css",
     "static/js/main.7b939b63.js"
   ]
 }
