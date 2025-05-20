@@ -9,12 +9,13 @@ const Resume = () => {
         <h2 className="mb-4">My Resume</h2>
         
         <iframe
-          src="/resume.pdf"
-          width="100%"
-          height="600px"
-          title="Resume Preview"
-          style={{ border: "1px solid #ccc", borderRadius: "8px" }}
-        ></iframe>
+  src="/Swaraj_Sambare_Resume.pdf"
+  width="100%"
+  height="600px"
+  title="Resume Preview"
+  style={{ border: "1px solid #ccc", borderRadius: "8px" }}
+></iframe>
+
 
         <div className="mt-4">
           <a
